@@ -6,4 +6,4 @@ Bu düzenlenmiş *Train.py*, *utils_models.py* gibi birçok dosyalar pre-trainin
 Yapılan bu çalışmaların hedef kitlesi Otonom Su Altı Aracı (AUV) ve Uzaktan Kontrollü Su Altı Aracı (ROV) platformlarında kullanılmasıdır. Bu çalışma neticesinde su altı ortamında araç içerisindeki kamera sisteminden alınan kamera görüntüleri doğrultusunda araç içerisindeki donanımda su altındaki tespit ve segmantasyon çalışmalarında maksimum performans alınması hedeflenmektedir.
 
 
-Not: Kaynak kod olarak ~https://github.com/WongKinYiu/yolov7~ github adresinden yararlanılmıştır
+Not: Kaynak kod olarak https://github.com/WongKinYiu/yolov7 github adresinden yararlanılmıştır
