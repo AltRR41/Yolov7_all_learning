@@ -94,6 +94,10 @@ def train(hyp, opt, device, tb_writer=None):
             print('freezing %s' % k)
             v.requires_grad = False
 
+    # Ek olarak, hangi parametrelerin güncelleniyor/dondurulduğunu kontrol edelim:
+    for name, param in model.named_parameters():
+        print(f"{name}: {param.requires_grad}")
+
     # Optimizer
     nbs = 64  # nominal batch size
     accumulate = max(round(nbs / total_batch_size), 1)  # accumulate loss before optimizing
